@@ -1,0 +1,38 @@
+/* body{
+    background-color: lightcyan;
+} */
+.common-styles{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(47, 45, 45);
+    border: 1px solid rgb(75, 75, 75);
+    padding: 6px 10px;
+    overflow: hidden;
+    line-height: 55px;
+}
+.common-styles:hover{
+    text-decoration: none;
+    background-color: rgb(47, 45, 45);
+    color: white;
+}
+
+.common-styles:focus{
+    outline: 5px solid rgba(2, 2, 2, 0.52);
+}
+
+.promo{
+    display: flex;
+    align-items: center;
+}
+#promo-input{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#promo-apply{
+    padding: 11px 16px;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: rgb(253, 9, 34);
+    color: white;
+    margin-left: 5px;
+}
